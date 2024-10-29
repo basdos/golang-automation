@@ -4,18 +4,18 @@ This is project about Automation Test using Go Programming Language
 
 # Prerequisites:
 
-Install Go: Download and install Go from Go's official website.__
+Install Go: Download and install Go from Go's official website.<br />
 
-Install Go Packages:__
-    - testify: For writing assertions and test cases.__
-    - selenium: For web browser automation.__
-    - appium Go bindings (go-selenium can be used with Appium).__
+Install Go Packages:<br />
+    - testify: For writing assertions and test cases.<br />
+    - selenium: For web browser automation.<br />
+    - appium Go bindings (go-selenium can be used with Appium).<br />
 
-npm install -g appium # for mobile test automation__
+npm install -g appium # for mobile test automation <br />
 
 # Automation Api 
 
-https://dummyjson.com with login endpoint__
+https://dummyjson.com with login endpoint <br />
 Use Gherkin BDD cucumber, file name contains the word "bdd"
 
 Command to run  "go test -run ^TestApiLogin$ ./api"
