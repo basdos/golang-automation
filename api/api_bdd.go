@@ -69,7 +69,7 @@ func iVerifyResponseBody() error {
 }
 
 // Initialize the godog context
-func InitializeScenario(ctx *godog.ScenarioContext) {
+func InitializeScenarioApi(ctx *godog.ScenarioContext) {
 	ctx.Step(`^I have a username "([^"]*)" and password "([^"]*)"$`, iHaveAUsernameAndPassword)
 	ctx.Step(`^I send a POST request to endpoint "([^"]*)"$`, iSendAPostRequestToEndpoint)
 	ctx.Step(`^I verify response code`, iVerifyResponseCode)

@@ -1,7 +1,7 @@
 Feature: Login API
 
-  Scenario: Login Success
+  Scenario: Login API Success
     Given I have a username "emilys" and password "emilyspass"
     When I send a POST request to endpoint "/auth/login"
-    Then I verify response code
-    And I verify response body
+    And I verify response code
+    Then I verify response body
